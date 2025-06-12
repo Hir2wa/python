@@ -13,7 +13,7 @@ greet("Alice")
 
 def calculate_weighted_average(values, weights):
     if len(values) != len(weights) or len(values) == 0:
-        return 0  # Check if lists are of equal length and non-empty
+        return 0  
     weighted_sum = sum(value * weight for value, weight in zip(values, weights))
     total_weight = sum(weights)
     weighted_average = weighted_sum / total_weight
